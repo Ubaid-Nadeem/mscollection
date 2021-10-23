@@ -41,3 +41,14 @@ if(idx==1){
 }
 }
 setInterval(run,3000);
+
+
+function hidebox(){
+//  var card1 = document.getElementsByClassName("hidebox");
+ var card1 = document.getElementById("hidebox")
+var button = document.getElementById('btn-container')
+card1.style.display="flex";
+button.style.display="none"
+
+
+}
